@@ -11,3 +11,8 @@ Describe the differences between forks, clones, and branches. When would you use
   except that they work from a remote (github) to a local (laptop) repository, or from local to local. 
   Branches are a deviation from a repository's line of commits, so as to implement a new or experimental feature that we do not want to include
   in it yet (or at all) until we are fully satisfied with its results. Branches are parts of a repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  So that we can keep track of and see the changes made later on the remote, and also keep track of the differences between our local changes
+  and the last known state of the remote. Pretty much to be able to see how out of sync we are locally with respect to the last known state of
+  the remote.
