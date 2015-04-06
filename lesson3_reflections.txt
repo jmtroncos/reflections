@@ -23,3 +23,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
   describing what is being changed, asking the other for review or approval, but even then it may become really cumbersome really fast. As soon
   as project starts to grow in size and number of collaborators, using a revision control system like git and a service lake github becomes the 
   easier and logical way to do it.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  Using a separate branch makes sense when we are making changes that involve a fundamental difference in the functionality that we are not sure
+  we want to include in the main branch until other collaborators have a chance to review and approve. For simple corrections that do not affect
+  the overall project in a fundamental way, but are instead a logical continuation of the project, we can just change the master branch, thus
+  avoiding the complication of using separate branches.
