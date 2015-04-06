@@ -16,3 +16,10 @@ What is the benefit of having a copy of the last known state of the remote store
   So that we can keep track of and see the changes made later on the remote, and also keep track of the differences between our local changes
   and the last known state of the remote. Pretty much to be able to see how out of sync we are locally with respect to the last known state of
   the remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  Collaboration without git or github might be acceptable or even preferable for very small projects and groups (no more than two). In that case
+  the collaborators would simply email each other manually every time one of them makes a change, and probably including a copy of the file and 
+  describing what is being changed, asking the other for review or approval, but even then it may become really cumbersome really fast. As soon
+  as project starts to grow in size and number of collaborators, using a revision control system like git and a service lake github becomes the 
+  easier and logical way to do it.
